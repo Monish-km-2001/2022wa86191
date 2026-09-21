@@ -1,7 +1,5 @@
-package com.bits.app;
-
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Automated Build for 2022WA86191");
-    }
-}
+# Example edit
+echo "// CI Build verification commit" >> src/main/java/com/example/App.java
+git add .
+git commit -m "Updated code to test Jenkins Poll SCM continuous build"
+git push origin main
